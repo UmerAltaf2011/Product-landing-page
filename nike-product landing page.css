@@ -3,16 +3,28 @@ body {
     font-family: 'Poppins';
 }
 
+section {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eee;
+    height: 85vh;
+    width: 100%;
+}
 
 .Air-Force-1 {
+    width: 50%;
+}
 
-    margin: 60px;
+.Air-Force-1 img {
+    padding: 20px;
     animation: myAnim 1s ease 0s 1 normal forwards;
 }
 
 .text-for-the-shoe {
-
-    margin: 23px;
+    width: 50%;
+    padding: 20px;
 
 }
 
@@ -41,14 +53,7 @@ body {
     }
 }
 
-section {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #eee;
-    height: 85vh;
-}
+
 
 .nav {
     background-color: white;
@@ -149,29 +154,29 @@ h5 {
         font-size: x-small;
     }
 
+
     .Air-Force-1 img {
-        width: 140px;
-        height: 80px;
-        margin-top: 60px;
-        margin-left: 0px;
+        width: 300px;
+        /* height: 80px; */
+    }
+
+    .text-for-the-shoe {
+        width: 90%;
+        padding: 20px;
     }
 
     .Air-Force-1 {
-        width: 110px;
-        height: 175px;
-        margin-left: 0px;
+        width: 90%;
+        padding: 20px;
     }
 
     section {
         font-size: xx-small;
-        width: 480px;
-        height: 45vh;
-        flex-direction: row-reverse;
+        flex-direction: column-reverse;
+        height: 50vh;
     }
 
-    .text-for-the-shoe {
-        width: 165px;
-    }
+
 
     .nav {
         font-size: x-small;
