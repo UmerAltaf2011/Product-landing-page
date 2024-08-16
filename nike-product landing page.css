@@ -162,7 +162,7 @@ h5 {
 
     .text-for-the-shoe {
         width: 90%;
-        padding-top: 40px;
+        padding: 20px;
     }
 
     .Air-Force-1 {
@@ -173,8 +173,9 @@ h5 {
     section {
         font-size: xx-small;
         flex-direction: column-reverse;
-        height: 50vh;
+        height: 57vh;
         padding-top:60px;
+        align-items:center;
     }
 
 
